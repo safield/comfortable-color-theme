@@ -10,17 +10,27 @@
     "contrastBorder": "#080A0F",
     "dropdown.background": "#181A1F",
     "dropdown.border": "#080A0F",
-    "editor.background": "#21252b",
-    "editor.foreground": "#abb2bf",
-    "editor.lineHighlightBackground": "#2c313a",
+    "editor.background": "#1c1f23",
+    "editor.foreground": "#cbcbcb",
+    "editor.lineHighlightBackground": "#652b1544",
 
-    "editor.selectionBackground": "#264F77",
-    "editor.selectionHighlightBackground": "#3E4451",
+    // these will all be the same color, as I don't like all sorts of different selection colors
+    "editor.selectionBackground": "#652b15",
+    "editor.findMatchBackground": "#652b15",
+    "editor.findMatchHighlightBackground": "#652b1555",
 
-    "editor.findMatchBackground": "#42557B",
-    "editor.findMatchHighlightBackground": "#314365",
-    "editorBracketMatch.border": "#61afef",
-    "editorCursor.foreground": "#abb2bf",
+
+    "editor.selectionBorder": "#ffffff",
+    // "editor.selectionHighlightBackground": "#3E4451", // this will make all instances of a selected word this color except for the first one. It is weird and bad.
+    // "editor.selectionHighlightBorder": "#ffffff", // this doesn't apply the border as I would anticipate
+    "list.inactiveSelectionBackground": "#2E3441",
+
+    // word highlighting is SUPER annoying and obstrusive MAKE INVISIBLE
+    "editor.wordHighlightBackground" : "#aaaaaa00", // when moving the cursor to a variable, all instances of that variable will be highlighted this color
+    "editor.wordHighlightStrongBackground" : "#ffffff00",
+
+    "editorBracketMatch.border": "#652b15bb",
+    "editorCursor.foreground": "#fe3a1b",
     "editorError.foreground": "#C62D42",
     "editorInfo.foreground": "#1B659D",
     "editorWarning.foreground": "#d4ac0d",
@@ -30,7 +40,7 @@
     "editorHoverWidget.background": "#181A1F",
     "editorHoverWidget.border": "#61afef",
     "editorIndentGuide.background": "#3E4451",
-    "editorLineNumber.foreground": "#3E4451",
+    "editorLineNumber.foreground": "#666666",
     "editorOverviewRuler.border": "#080A0F",
     "editorOverviewRuler.errorForeground": "#C62D42",
     "editorOverviewRuler.infoForeground": "#1B659D",
@@ -50,9 +60,6 @@
     "inputValidation.infoBorder": "#1B659D",
     "inputValidation.warningBackground": "#d4ac0d",
     "inputValidation.warningBorder": "#d4ac0d",
-    "list.activeSelectionBackground": "#21252b",
-    "list.activeSelectionForeground": "#d7dae0",
-    "list.inactiveSelectionBackground": "#2E3441",
     "list.hoverBackground": "#292d35",
     "list.focusBackground": "#2c313a",
     "notification.background": "#21252b",
