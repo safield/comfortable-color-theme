@@ -14,6 +14,11 @@
     "editor.foreground": "#cbcbcb",
     "editor.lineHighlightBackground": "#652b1544",
 
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#ff0000",
+        "tab.unfocusedActiveBorder": "#000000"
+    }
+
     // these will all be the same color, as I don't like all sorts of different selection colors
     "editor.selectionBackground": "#652b15",
     "editor.findMatchBackground": "#652b15",
