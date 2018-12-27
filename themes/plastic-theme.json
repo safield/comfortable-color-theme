@@ -17,21 +17,19 @@
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#ff0000",
         "tab.unfocusedActiveBorder": "#000000"
-    }
+    },
 
-    // these will all be the same color, as I don't like all sorts of different selection colors
     "editor.selectionBackground": "#652b15",
     "editor.findMatchBackground": "#652b15",
     "editor.findMatchHighlightBackground": "#652b1555",
 
 
     "editor.selectionBorder": "#ffffff",
-    // "editor.selectionHighlightBackground": "#3E4451", // this will make all instances of a selected word this color except for the first one. It is weird and bad.
-    // "editor.selectionHighlightBorder": "#ffffff", // this doesn't apply the border as I would anticipate
+
+
     "list.inactiveSelectionBackground": "#2E3441",
 
-    // word highlighting is SUPER annoying and obstrusive MAKE INVISIBLE
-    "editor.wordHighlightBackground" : "#aaaaaa00", // when moving the cursor to a variable, all instances of that variable will be highlighted this color
+    "editor.wordHighlightBackground" : "#aaaaaa00", 
     "editor.wordHighlightStrongBackground" : "#ffffff00",
 
     "editorBracketMatch.border": "#652b15bb",
