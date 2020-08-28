@@ -1,25 +1,30 @@
 {
-    "name": "comfortable-color-theme",
-    "displayName": "comfortable-color-theme",
-    "description": "",
-    "version": "0.0.3",
-    "publisher": "yibuyisheng",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "scripts": {
-        "publish": "vsce publish"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "comfortable-color-theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/plastic-theme-punctuation.json"
-            }
-        ]
-    }
+	"name": "comfortable-color-theme",
+	"displayName": "comfortable-color-theme",
+	"description": "",
+	"version": "0.0.3",
+	"publisher": "yibuyisheng",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"publish": "vsce publish"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "comfortable-color-theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/plastic-theme-punctuation.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "02691183-cdaf-45ad-b839-072ea0e0f738",
+		"publisherDisplayName": "yibuyisheng",
+		"publisherId": "21583e02-9a54-4727-92e2-36e5bca39085"
+	}
 }

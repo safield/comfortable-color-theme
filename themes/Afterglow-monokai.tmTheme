@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2E2E2E</string>
+				<string>#21252b</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
@@ -18,15 +18,15 @@
 				<key>invisibles</key>
 				<string>#404040</string>
 				<key>lineHighlight</key>
-				<string>#333435</string>
+				<string>#412a24</string>
 				<key>selection</key>
-				<string>#5A647E</string>
+				<string>#794335</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>selectionBorder</key>
-				<string>#5A647E</string>
+				<string>#d56b4f</string>
 				<key>activeGuide</key>
 				<string>#9D550FB0</string>
 
