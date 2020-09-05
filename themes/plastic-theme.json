@@ -35,7 +35,7 @@
     "editorBracketMatch.border": "#652b15bb",
     "editorCursor.foreground": "#fe3a1b",
     "editorError.foreground": "#C62D42",
-    "editorInfo.foreground": "#1B659D",
+    "editorInfo.foreground": "#bbdddd",
     "editorWarning.foreground": "#d4ac0d",
     "editorGroup.background": "#181A1F",
     "editorGroup.border": "#080A0F",
